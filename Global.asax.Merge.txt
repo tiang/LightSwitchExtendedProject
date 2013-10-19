@@ -1,0 +1,5 @@
+// Add to your Global.asax.cs Application_Start()
+AreaRegistration.RegisterAllAreas();
+FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+WebApiConfig.Register(GlobalConfiguration.Configuration);
+RouteConfig.RegisterRoutes(RouteTable.Routes);
